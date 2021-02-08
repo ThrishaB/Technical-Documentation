@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documentation Page</title>
+	
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+	
+* {
+	
+  		box-sizing: border-box;
+		margin: 0;
+		padding: 0px;
+	
+}
+
+body {
+	
+		font-family: 'Poppins';
+  		min-width: 290px;
+  		background-color: #f6fafb;
+  		line-height: 1.5;
+	
+}
+
+
+header {
+	
+  		color: #252b31;
+  		margin: 20px 0px 30px;
+  		text-align: center;
+  		font-size: 30px;
+
+}
+
+#navbar {
+	
+  		position: fixed;
+  		min-width: 290px;
+  		top: 0px;
+  		left: 0px;
+  		width: 350px;
+  		height: 100%;
+		border-right-width: thin;
+  		border-color: slategray;
+	
+}
+
+#navbar ul {
+	
+  		height: 100%;
+  		padding: 0;
+  		overflow-y: auto;
+  		overflow-x: hidden;
+	
+}
+
+#navbar li {
+	
+  		border-top: 1px solid;
+  		list-style: none;
+  		position: relative;
+  		width: 100%;
+	
+}
+
+#navbar a {
+  
+		display: block;
+  		padding: 10px 40px;
+  		text-decoration: none;
+  		cursor: pointer;
+		color: slategray;
+	
+}
+
+#main-doc {
+	
+  		position: absolute;
+  		margin-left: 370px;
+  		padding: 50px;
+		color: #5e6668;
+	
+}
+
+#main-doc header {
+	
+  		text-align: left;
+  		margin: 10 0 0;
+		color: #2f2931;
+	
+}
+
+section article {
+	
+  		margin: 40px;
+  		font-size: 17px;
+		line-height: 30px;
+}
+
+section li {
+	
+  		margin: 35px 0 0 80px;
+	
+}
+
+code {
+	
+  		display: block;
+  		text-align: left;
+  		position: relative;
+  		line-height: 30px;
+  		background-color: grey;
+  		padding: 15px;
+  		margin: 10px;
+  		border-radius: 7px;
+		color: aliceblue
+	
+}
+
+@media only screen and (max-width: 815px) {
+
+	#main-doc {
+	
+  		position: absolute;
+  		margin-left: 310px;
+  		padding: 50px;
+	
+}
+
+	#navbar {
+	
+  		position: fixed;
+  		min-width: 290px;
+  		top: 0px;
+  		left: 0px;
+  		width: 300px;
+  		height: 100%;
+  		border-right: solid;
+  		border-color: gray;
+	
+}
+
+	#navbar ul {
+	
+  		height: 100%;
+  		padding: 0;
+  		overflow-y: auto;
+  		overflow-x: hidden;
+	
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+	#main-doc {
+		
+    	margin-left: -10px;
+		
+  }
+
+  code {
+	  
+    	margin-left: -20px;
+    	width: 100%;
+    	padding: 15px;
+    	padding-left: 10px;
+    	padding-right: 45px;
+    	min-width: 233px;
+	  
+  }
+}	
+
+p{
+	
+		margin: 20px 0 0;
+	
+}
+	
+</style>
+	
+<script>
+	
+  		window.console = window.console || function(t) {};
+	
+</script>
+
+<script>
+	
+  if (document.location.search.match(/type=embed/gi)) {
+	  
+    	window.parent.postMessage("resize", "*");
+	  
+  }
+	
+</script>
+
+</head>
+
+<body>
+	
+<nav id="navbar">
+	
+<header>About GitHub Pages</header>
+	
+  <ul>
+	  
+    	<li><a class="nav-link" href="#About_GitHub_Pages">About GitHub Pages</a></li>
+    	<li><a class="nav-link" href="#Types_of_GitHub_Pages_sites">Types of GitHub Pages sites</a></li>
+    	<li><a class="nav-link" href="#Publishing_sources_for_GitHub_Pages_sites">Publishing sources for GitHub Pages sites</a></li>
+    	<li><a class="nav-link" href="#Static_site_generators">Static site generators</a></li>
+    	<li><a class="nav-link" href="#Guidelines_for_using_GitHub_Pages">Guidelines for using GitHub Pages</a></li>
+    	<li><a class="nav-link" href="#MIME_types_on_GitHub_Pages">MIME types on GitHub Pages</a></li>
+    	<li><a class="nav-link" href="#Further_reading">Further reading</a></li>
+	  
+  </ul>
+	  
+</nav>
+	
+<main id="main-doc">
+	
+<section class="main-section" id="About_GitHub_Pages">
+	
+<header>About GitHub Pages</header>
+	
+<article>
+	
+      	<p> GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website. You can see examples of GitHub Pages sites in the GitHub Pages examples collection. </p>
+
+      	<p> You can host your site on GitHub's github.io domain or your own custom domain. For more information, see <u><b> "Using a custom domain with GitHub Pages." </b></u></p>
+		
+	  	<p> If your project site is published from a private or internal repository owned by an organization using GitHub Enterprise Cloud, you can manage access control for the site. For more information, see <u><b> "Changing the visibility of your GitHub Pages site." </b></u></p> 
+		
+	  	<p> To get started, see <u><b> "Creating a GitHub Pages site." </b></u></p>
+	  
+	  	<p> Organization owners can disable the publication of GitHub Pages sites from the organization's repositories. For more information, see <u><b> "Managing the publication of GitHub Pages sites for your organization." </b></u></p>
+	
+</article>
+
+</section>
+
+<section class="main-section" id="Types_of_GitHub_Pages_sites">
+
+<header>Types of GitHub Pages sites</header>
+
+<article>
+
+		<p>There are three types of GitHub Pages sites: project, user, and organization. Project sites are connected to a specific project hosted on GitHub, such as a JavaScript library or a recipe collection. User and organization sites are connected to a specific GitHub account.</p>
+		
+		<p>To publish a user site, you must create a repository owned by your user account that's named: </p>
+		
+		<code>username.github.io</code>
+	
+		<p>To publish an organization site, you must create a repository owned by an organization that's named: </p>
+		
+		<code>organization.github.io</code>
+	
+		<p>Unless you're using a custom domain, user and organization sites are available at: </p>
+		
+		<code>http(s)://username.github.io</code>
+			
+		<p> or </p>
+			
+		<code>http(s)://organization.github.io</code>
+			
+		<p> If you publish your site privately, the URL for your site will be different. For more information, see <u><b> "Changing the visibility of your GitHub Pages site." </b></u></p>
+	
+		<p>You can only create one user or organization site for each account on GitHub. Project sites, whether owned by an organization or a user account, are unlimited. For example: </p>
+		
+		<code>products.github.io</code>
+	
+</article>
+	
+</section>
+	
+<section class="main-section" id="Publishing_sources_for_GitHub_Pages_sites">
+	
+<header>Publishing sources for GitHub Pages sites</header>
+
+<article>
+      
+		<p>The publishing source for your GitHub Pages site is the branch and folder where the source files for your site are stored.</p>
+
+      	<p>If the default publishing source exists in your repository, GitHub Pages will automatically publish a site from that source. The default publishing source for user and organization sites is the root of the default branch for the repository. The default publishing source for project sites is the root of the gh-pages branch.</p>
+      
+	  	<p> If you want to keep the source files for your site in a different location, you can change the publishing source for your site. You can publish your site from any branch in the repository, either from the root of the repository on that branch, /, or from the /docs folder on that branch. For more information, see <u><b> "Configuring a publishing source for your GitHub Pages site." </b></u></p>
+	
+</article>
+
+</section>
+
+<section class="main-section" id="Static_site_generators">
+
+<header>Static site generators</header>
+
+<article>
+	
+      <p> GitHub Pages publishes any static files that you push to your repository. You can create your own static files or use a static site generator to build your site for you. You can also customize your own build process locally or on another server. We recommend Jekyll, a static site generator with built-in support for GitHub Pages and a simplified build process. For more information, see <u><b> "About GitHub Pages and Jekyll." </b></u></p>
+	
+	  <p> GitHub Pages will use Jekyll to build your site by default. If you want to use a static site generator other than Jekyll, disable the Jekyll build process by creating an empty file called .nojekyll in the root of your publishing source, then follow your static site generator's instructions to build your site locally. </p>
+	
+</article>
+	
+</section>
+
+<section class="main-section" id="Guidelines_for_using_GitHub_Pages">
+	
+<header>Guidelines for using GitHub Pages</header>
+	
+    <ul>
+		
+        <li>GitHub Pages sites created after June 15, 2016 and using github.io domains are served over HTTPS. If you created your site before June 15, 2016, you can enable HTTPS support for traffic to your site. For more information, see "Securing your GitHub Pages with HTTPS."</li>
+        <li>GitHub Pages sites shouldn't be used for sensitive transactions like sending passwords or credit card numbers.</li>
+        <li>Your use of GitHub Pages is subject to the GitHub Terms of Service, including the prohibition on reselling.</li>
+		
+    </ul>
+	
+</section>
+
+<section class="main-section" id="MIME_types_on_GitHub_Pages">
+
+<header>MIME types on GitHub Pages</header>
+	
+<article>
+      
+      	<p>A MIME type is a header that a server sends to a browser, providing information about the nature and format of the files the browser requested. GitHub Pages supports more than 750 MIME types across thousands of file extensions. The list of supported MIME types is generated from the mime-db project.</p>
+		
+      	<p>While you can't specify custom MIME types on a per-file or per-repository basis, you can add or modify MIME types for use on GitHub Pages. For more information, see the mime-db contributing guidelines.</p>
+      
+</article>
+
+</section>
+
+<section class="main-section" id="Further_reading">
+
+<header>Further reading</header>
+
+<article>
+	
+    <ul>
+		
+        <li>GitHub Pages on GitHub Learning Lab</li>
+        <li>"GitHub Pages"</li>
+		
+    </ul>
+	
+</article>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
